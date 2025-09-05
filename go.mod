@@ -1,0 +1,10 @@
+module github.com/saushew/great-app
+
+go 1.24.3
+
+require github.com/saushew/great-app/core v0.0.0
+
+// For local development
+replace github.com/saushew/great-app/core => ./core
+
+require golang.org/x/sync v0.16.0
